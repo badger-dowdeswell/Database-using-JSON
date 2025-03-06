@@ -188,5 +188,9 @@ namespace db {
             // Go back to the parent of this form which is FormMain.
             FormParent.Show();
         }
-    }
+
+        private void comboBoxCustomerID_SelectedIndexChanged(object sender, EventArgs e) {
+
+        } 
+    }    
 }

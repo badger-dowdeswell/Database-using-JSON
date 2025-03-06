@@ -27,7 +27,7 @@ namespace db {
         private class Table {
             public string productID {get; set;}
             public string productDesc {get; set;}            
-            public float price { get; set; }
+            public Single price { get; set; }
         }
         // Define a variable of the type Table. The class gets created later in the
         // Constructor below.
@@ -89,7 +89,7 @@ namespace db {
         //
         // Price
         // =====
-        public float Price {
+        public Single Price {
             get {return data.price; }
             set {data.price = value; }
         }

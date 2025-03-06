@@ -56,7 +56,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(195, 25);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Customer ID Number";
+            this.label1.Text = "Customer ID Number";           
             // 
             // textBoxCustomerName
             // 
@@ -77,7 +77,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Customer Name";
+            this.label2.Text = "Customer Name";           
             // 
             // textBoxAddress
             // 
@@ -98,8 +98,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 25);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Address";
-            // 
+            this.label3.Text = "Address";           
             // buttonUpdate
             // 
             this.buttonUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,7 +120,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 25);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Password";
+            this.label4.Text = "Password";           
             // 
             // textBoxPassword
             // 
@@ -141,6 +140,7 @@
             this.comboBoxCustomerID.Name = "comboBoxCustomerID";
             this.comboBoxCustomerID.Size = new System.Drawing.Size(364, 33);
             this.comboBoxCustomerID.TabIndex = 0;
+            this.comboBoxCustomerID.SelectedIndexChanged += new System.EventHandler(this.comboBoxCustomerID_SelectedIndexChanged);
             this.comboBoxCustomerID.SelectionChangeCommitted += new System.EventHandler(this.comboBoxCustomerID_SelectionChangeCommitted);
             this.comboBoxCustomerID.TextChanged += new System.EventHandler(this.comboBoxCustomerID_TextChanged);
             this.comboBoxCustomerID.Leave += new System.EventHandler(this.comboBoxCustomerID_Leave);
