@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Simple_Database.dbCustomer">
+    <Position X="7.5" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAIAAAAAAAAAAAAAAgAAAAAAABAAAQAAAAAAA=</HashCode>
+      <FileName>dbCustomer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Simple_Database.Data">
+    <Position X="7.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAUAAAAEACAAAAAgABEAA=</HashCode>
+      <FileName>dbCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Simple_Database.FormCustomer">
+    <Position X="3.25" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>SEAAAAABACAGABAAGACAIAASAAAAkQAAAQAAAABRFAA=</HashCode>
+      <FileName>FormCustomer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="customer" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
