@@ -2,23 +2,14 @@
 //
 // MAINTAIN PRODUCT INFORMATION
 // =============================
-// This form is used to manage the creation
-// of new products in the Product database
-// table. It also allows the information for
-// each product to be changed and updated
+// This form is used to manage the creation of new products in the Product database
+// table. It also allows the information for each product to be changed and updated
 // later.
 //
 // Revision History
 // ================
 // 04.13.2025 BRD Original version.// 
 //
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace db {
