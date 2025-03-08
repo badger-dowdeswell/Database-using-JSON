@@ -73,6 +73,7 @@ namespace db {
         // again in the internal Table class. Remember, the data in the data object is private
         // but this is a public method that the Product Maintenance or other forms can use
         // to get information from the product information table.
+        //
         public string ProductID {
             get {return data.productID; }
             set {data.productID = value; }

@@ -60,6 +60,7 @@ namespace db {
         // The constructor sets up a lot of things that this class needs. Remember
         // the constructor is the first method that runs as soon as the class is
         // created.
+        //
         public dbCustomer() { 
             // Create an instance of the Table class called "data". The Read()
             // and Update() methods will use this to hold the information found
@@ -94,6 +95,7 @@ namespace db {
         // again in the internal Table class. Remember, the data in the data object is private
         // but this is a public method that the Customer Maintenance or other forms like
         // the Sign-In form can use to get information from the customer table.
+        //
         public string CustomerID {
             get {return data.customerID; }
             set {data.customerID = value; }

@@ -140,7 +140,6 @@
             this.comboBoxCustomerID.Name = "comboBoxCustomerID";
             this.comboBoxCustomerID.Size = new System.Drawing.Size(364, 33);
             this.comboBoxCustomerID.TabIndex = 0;
-            this.comboBoxCustomerID.SelectedIndexChanged += new System.EventHandler(this.comboBoxCustomerID_SelectedIndexChanged);
             this.comboBoxCustomerID.SelectionChangeCommitted += new System.EventHandler(this.comboBoxCustomerID_SelectionChangeCommitted);
             this.comboBoxCustomerID.TextChanged += new System.EventHandler(this.comboBoxCustomerID_TextChanged);
             this.comboBoxCustomerID.Leave += new System.EventHandler(this.comboBoxCustomerID_Leave);

@@ -8,7 +8,7 @@
 //
 // Revision History
 // ================
-// 04.13.2025 BRD Original version.// 
+// 04.13.2025 BRD Original version. 
 //
 using System.Windows.Forms;
 
@@ -173,9 +173,7 @@ namespace db {
             string[] fileList = product.Query();           
             comboBoxProductID.Items.AddRange(fileList);    
             comboBoxProductID.Focus();
-        }
-
-        
+        }        
     }
 }
 
