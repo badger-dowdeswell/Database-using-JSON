@@ -1,27 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Simple_Database.dbCustomer">
-    <Position X="7.5" Y="1.5" Width="2.25" />
+  <Class Name="db.FormCustomer">
+    <Position X="0.5" Y="1.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAQgAAAAIAAAAAAAAAAAAAAgAAAAAAABAAAQAAAAAAA=</HashCode>
-      <FileName>dbCustomer.cs</FileName>
+      <HashCode>CAgAAAABACAGABAAGACAIAACACAAkQgAAQACAAARFEA=</HashCode>
+      <FileName>FormCustomer.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="data" />
+      <Field Name="customer" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="Simple_Database.Data">
-    <Position X="7.5" Y="4.75" Width="2.25" />
+  <Class Name="db.dbCustomer">
+    <Position X="6" Y="3.5" Width="2.25" />
+    <NestedTypes>
+      <Class Name="db.dbCustomer.Table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dbCustomer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAUAAAAEACAAAAAgABEAA=</HashCode>
+      <HashCode>AAQgAAAAIAAAAAAAAAAAAAAgUAAAAAgDAAAQAAABAAA=</HashCode>
       <FileName>dbCustomer.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Simple_Database.FormCustomer">
-    <Position X="3.25" Y="1" Width="2.75" />
+  <Class Name="db.FormProduct">
+    <Position X="9.25" Y="1.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>SEAAAAABACAGABAAGACAIAASAAAAkQAAAQAAAABRFAA=</HashCode>
-      <FileName>FormCustomer.cs</FileName>
+      <HashCode>KAIEABAAAiAIABAAAAKAIQQCAAgAgQAAAAAAAAABBCA=</HashCode>
+      <FileName>FormProduct.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="product" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="db.dbProduct">
+    <Position X="12.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="db.dbProduct.Table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dbProduct.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAQgAAAAIQAAgAAAAAAAAAAgAAAAAAgBAAAQAAAAAAA=</HashCode>
+      <FileName>dbProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="db.FormSignIn">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAgAAABACAAAJAAIACAAAACAAAAAAAAAQAABABAAAA=</HashCode>
+      <FileName>FormSignIn.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Field Name="customer" />
