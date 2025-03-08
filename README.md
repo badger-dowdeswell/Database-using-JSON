@@ -6,6 +6,10 @@ This project demonstrates how to build a class to manage each database table in 
 
 JSON is an open standard file format that uses human-readable text to store information as data objects consisting of attribute–value pairs and arrays. You can read more about the JSON standard on Wikipedia: https://en.wikipedia.org/wiki/JSON
 
+![Customer UML Class Diagram](https://github.com/user-attachments/assets/d8940a89-5521-4302-9a78-5208d2686ab0)
+
+![Product UML Class Diagram](https://github.com/user-attachments/assets/ee693453-e239-423f-9e81-3c05f97c7d91)
+
 ## Installing the JSON Serializer components into Visual Studio
 The application reads and writes JSON-format files using a Visual Studio package called _System.Text.Json -Version 4.7.2_ that is not installed automatically.
 
